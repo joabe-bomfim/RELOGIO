@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(rgb(3, 171, 201),rgb(255, 46, 175),rgb(36, 1, 36));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#calendario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(77, 0, 150, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.651) 7px 7px 7px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 15px;
+    color: antiquewhite;
+}
+#cpmt {
+    position: absolute;
+    top: 225px;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-shadow: black 7px 7px 7px;
+}
+#central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(58, 14, 100, 0.13);
+    box-shadow: rgba(0, 0, 0, 0.664) 7px 7px 7px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cubo {
+    background-color: rgb(24, 24, 24);
+    color: rgb(250, 232, 199);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.658) 7px 7px 7px;
+}
+#horas {
+    font-size: 50px;
+    margin: 0%;
+
+    
+}
+#minutos {
+    font-size: 50px;
+    margin: 0%;
+}
+#segundos {
+    font-size: 50px;
+    margin: 0%;
+}
+#dia {
+    text-shadow: black 7px 7px 7px;
+}
+#mes {
+    text-shadow: black 7px 7px 7px;
+}
+#ano {
+    text-shadow: black 7px 7px 7px;
+}
+.barra {
+    text-shadow: black 7px 7px 7px;
+}
+
+
